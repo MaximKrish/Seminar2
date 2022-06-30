@@ -21,3 +21,16 @@ if (n > 10000)
     n1 = (n%1000  -n%100)/100;
 }
 Console.WriteLine(n1);
+
+
+int n;
+n = Convert.ToInt32(Console.ReadLine());
+if (n%100 ==n)
+{
+    Console.WriteLine("Третьей цифры не существует");
+}
+else
+{
+    Console.WriteLine("Третья цифра числа: ");
+    Console.WriteLine(Convert.ToString(n)[2]);
+}
